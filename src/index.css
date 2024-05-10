@@ -5,6 +5,6 @@
 
 @layer {
     .box{
-        @apply  w-[9rem] h-[5rem]  rounded-[0.5rem] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none outline-none   ;
+        @apply  xs2:w-[9rem] xs1:w-[4rem] xs2:h-[5rem] xs1:h-[2.5rem]  rounded-[0.5rem] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none outline-none   ;
     }
 }
